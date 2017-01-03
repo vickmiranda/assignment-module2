@@ -1,0 +1,78 @@
+/** HEADER **/
+#header-nav {
+  background-color: #9eaf93;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #1f4c05;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #1f4c05;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #1f4c05;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/*Main Content here*/
+#main-content h2{
+  text-align: center;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile{
+  text-align: center;
+  background-color: #9eaf93;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+#chicken-tile p, #beef-tile p, #sushi-tile p{
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+
