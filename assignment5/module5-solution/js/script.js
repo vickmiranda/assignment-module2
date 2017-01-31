@@ -103,6 +103,7 @@ function buildAndShowHomeHTML (categories) {
       // variable's name implies it expects.
 
       var chosenCategoryShortName = chooseRandomCategory(categories).short_name;
+      // Use to debug variable above.
       console.log(chosenCategoryShortName);
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
@@ -118,6 +119,7 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
       var chosenCategoryFormatted = "'" + chosenCategoryShortName + "'";
+      // Another piece to check.
       console.log(chosenCategoryFormatted);
       var homeHtmlToInsertIntoMainPage = insertProperty(
         homeHtml, 
